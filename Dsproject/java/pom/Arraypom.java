@@ -71,7 +71,7 @@ if(o.equals(option)) {
 	 while(i1.hasNext()){
 	 String[] str=i1.next();
 	   
-	 System.out.print(" Values are ");
+	 //System.out.print(" Values are ");
 
 	 for(int i=0;i<str.length;i++)
 	{

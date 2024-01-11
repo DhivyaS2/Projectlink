@@ -1,10 +1,15 @@
 package pom;
 
+import java.io.FileInputStream;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.Iterator;
 import java.util.List;
 
+import org.apache.poi.xssf.usermodel.XSSFCell;
+import org.apache.poi.xssf.usermodel.XSSFRow;
+import org.apache.poi.xssf.usermodel.XSSFSheet;
+import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
@@ -103,31 +108,32 @@ public class treepom {
 			}
 			public void tryhere() throws IOException, CsvException{
 			driver.findElement(tryhere).click();
-			try {
-			CSVReader reader = new CSVReader(new FileReader(".//src/test/resources/phython/squareroot.csv"));
-			List<String[]> li=reader.readAll();
-			 Iterator<String[]>i1= li.iterator();
-			    
-			 // Iterate all values 
-			 while(i1.hasNext()){
-			 String[] str=i1.next();
-			   
-			 System.out.print(" Values are ");
-
-			 for(int i=0;i<str.length;i++)
+			FileInputStream exc= new FileInputStream(".//src/test/resources/Excel/square.xlsx");
+			XSSFWorkbook work= new XSSFWorkbook(exc);
+			XSSFSheet sheet =work.getSheetAt(0);
+			int row= sheet.getLastRowNum();
+		
+			for(int r=0;r<=row;r++) 
 			{
-				 //System.out.print(" "+str[i]);
-				 driver.findElement(textarea).sendKeys(str[i]+"\n");
+				
+			XSSFRow rr=sheet.getRow(r);
+			
 
-			}
-			 } 
+			XSSFCell usr=rr.getCell(0);
+			
+		
+
+			driver.findElement(textarea).sendKeys(usr.getStringCellValue());
+			driver.findElement(textarea).sendKeys("\n");
+			
+			 }
+			
+			
+			work.close();
 			
 			}
-			catch(NullPointerException e) {
-				e.getMessage();
-			}
 			
-			}
+			
 			public void run() {
 			driver.findElement(run).click();
 			

@@ -75,6 +75,10 @@ public class Registerpom {
 	}
 	public void lsignout() {
 		driver.findElement(signout).click();
+		
+	}
+	public void home() {
+		driver.get("https://dsportalapp.herokuapp.com/home");
 	}
 	
 }

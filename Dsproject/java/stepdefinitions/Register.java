@@ -59,18 +59,20 @@ public void enters_possible_and_to_create_account(String urname, String pwd, Str
 @Then("Accepts user name and password and navigate to home page with username And Shows New Account credited with username")
 public void accepts_user_name_and_password_and_navigate_to_home_page_with_username_and_shows_new_account_credited_with_username() {
     
-   
+	rp= new Registerpom(next);
+	rp.home();
 }
 
 @When("clicks Sign out")
 public void clicks_sign_out() {
-    
+	rp= new Registerpom(next);
    rp.lsignout();
 }
 
 @Then("Displays Logged out successfully")
 public void displays_logged_out_successfully() {
-    
+	
+	
    
 }
 }

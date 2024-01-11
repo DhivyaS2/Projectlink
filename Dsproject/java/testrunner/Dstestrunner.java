@@ -10,10 +10,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 		dryRun =false,
 		monochrome=true,
 
-		 plugin= {"pretty",
-				
-				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"
-				
+		 plugin= {"pretty", "pretty", "html:targetreport/report.html",
+					"json:targetreport/report.json",
+					"junit:targetreport/report.xml",
+					 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
+	               "io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"
                 }
 		//publish=true
 				)

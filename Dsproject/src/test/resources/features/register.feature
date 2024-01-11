@@ -27,3 +27,4 @@ Examples:
 
 |username1|password|confirmpassword|
 |phoenixteam |phoenix123/|phoenix123/|
+

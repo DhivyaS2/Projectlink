@@ -5,6 +5,8 @@ import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
 
+import com.opencsv.exceptions.CsvException;
+
 import io.cucumber.java.en.*;
 import pom.Dslogin;
 import pom.Dsstartpom;
@@ -76,7 +78,7 @@ public void shows_linked_list_textarea_to_run_python_code() {
 }
 
 @When("Clicks Linked list  run to execute the program")
-public void clicks_linked_list_run_to_execute_the_program() throws IOException {
+public void clicks_linked_list_run_to_execute_the_program() throws IOException, CsvException {
    
     lp.linkedrun();
 }
