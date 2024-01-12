@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="53.725" tests="58" skipped="0" failures="1" errors="0">
+<testcase classname="Automation of DsPortal app  site" name="Open Ds Education site to get start" time="1.599">
+<system-out><![CDATA[
+Given The user opens site link..............................................passed
+Then Site will load.........................................................passed
+When Click get started to enter into the site...............................passed
+Then Home page will get load................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="home" time="1.599">
+<system-out><![CDATA[
+Given logged in Home page...................................................passed
+When Clicks Get started to enter into the page..............................passed
+Then Shows information about arrays.........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="subtopics - Example #1.1" time="1.003">
+<system-out><![CDATA[
+Given Shows options to read more about Arrays...............................passed
+When Clicks "Arrays in Python"..............................................passed
+Then Shows Explanation......................................................passed
+When Clicks Try here to run the program.....................................passed
+Then It shows text area to type the phython code............................passed
+When clicks Run.............................................................passed
+Then It runs the progam and Shows output....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="subtopics - Example #1.2" time="0.677">
+<system-out><![CDATA[
+Given Shows options to read more about Arrays...............................passed
+When Clicks "Arrays using List".............................................passed
+Then Shows Explanation......................................................passed
+When Clicks Try here to run the program.....................................passed
+Then It shows text area to type the phython code............................passed
+When clicks Run.............................................................passed
+Then It runs the progam and Shows output....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="subtopics - Example #1.3" time="1.136">
+<system-out><![CDATA[
+Given Shows options to read more about Arrays...............................passed
+When Clicks "Basic operations in List"......................................passed
+Then Shows Explanation......................................................passed
+When Clicks Try here to run the program.....................................passed
+Then It shows text area to type the phython code............................passed
+When clicks Run.............................................................passed
+Then It runs the progam and Shows output....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="subtopics - Example #1.4" time="0.588">
+<system-out><![CDATA[
+Given Shows options to read more about Arrays...............................passed
+When Clicks "Applications of Array".........................................passed
+Then Shows Explanation......................................................passed
+When Clicks Try here to run the program.....................................passed
+Then It shows text area to type the phython code............................passed
+When clicks Run.............................................................passed
+Then It runs the progam and Shows output....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="practise questions - Example #1.1" time="0.403">
+<system-out><![CDATA[
+Given Clicks Practise Questions.............................................passed
+When Clicks Question "Search the array".....................................passed
+Then Shows Questions and text area to run the code..........................passed
+When Enters code And Runs or Submit.........................................passed
+Then Shows Output or Alert message or error message.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="practise questions - Example #1.2" time="0.479">
+<system-out><![CDATA[
+Given Clicks Practise Questions.............................................passed
+When Clicks Question "Max Consecutive Ones".................................passed
+Then Shows Questions and text area to run the code..........................passed
+When Enters code And Runs or Submit.........................................passed
+Then Shows Output or Alert message or error message.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="practise questions - Example #1.3" time="0.523">
+<system-out><![CDATA[
+Given Clicks Practise Questions.............................................passed
+When Clicks Question "Find Numbers with Even Number of Digits"..............passed
+Then Shows Questions and text area to run the code..........................passed
+When Enters code And Runs or Submit.........................................passed
+Then Shows Output or Alert message or error message.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="practise questions - Example #1.4" time="0.455">
+<system-out><![CDATA[
+Given Clicks Practise Questions.............................................passed
+When Clicks Question "Squares of  a Sorted Array"...........................passed
+Then Shows Questions and text area to run the code..........................passed
+When Enters code And Runs or Submit.........................................passed
+Then Shows Output or Alert message or error message.........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates array page" name="signout" time="0.266">
+<system-out><![CDATA[
+When Clicks signout from array page.........................................passed
+Then logged out from array Data structure...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Starts without login" name="Trying to get started in Home page" time="0.58">
+<system-out><![CDATA[
+Given Trys to get start by clicking Get started.............................passed
+Then Alerts You are not logged in...........................................passed
+When Clicks Data Structure drop down........................................passed
+Then Shows six lists of data structure......................................passed
+When Clicks List in Data structure..........................................passed
+When Clicks Sign in To login................................................passed
+Then Navigates to login page................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Data structure" name="Automation of Data Structures Introduction" time="1.401">
+<system-out><![CDATA[
+Given User in Home page with logged username................................passed
+When Clicks Get Started to read about DS Introduction.......................passed
+Then Goes to DS Introduction page...........................................passed
+When Clicks Time complexity to explore......................................passed
+Then Navigates to Time complexity page......................................passed
+When clicks Try here And Enters  phython program And clicks Run.............passed
+Then It runs progam And shows Output........................................passed
+When Clicks signout from site...............................................passed
+Then logged out from Data structure page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates graph" name="Graph" time="2.579">
+<system-out><![CDATA[
+Given user is in Homepage after logged in...................................passed
+When The user selects Graph item from the drop down menu and should be directed to "Graph" Page.passed
+Then The user clicks "Try Here" button......................................passed
+Then The user should be redirected to a page having an tryEditor with a Run button to test.passed
+When The user navigates back and clicks "Graph Representations" button on the GR page.passed
+Then The user clicks "Try Here" button on GraphRepresentations page.........passed
+Then The user should be redirected to tryEditor with a Run button to test...passed
+When Clicks signout from graph home page....................................passed
+Then logged out from graph data structure...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="Home" time="0.862">
+<system-out><![CDATA[
+Given logged in Ds homescreen...............................................passed
+When Clicks to Linked List Get started to explore...........................passed
+Then Shows Linked List explanation..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="Linked List subtopics - Example #1.1" time="0.607">
+<system-out><![CDATA[
+Given Shows option to explore more about Linked list........................passed
+When Clicks Linked list "Introduction"......................................passed
+Then Navigates to Linked list sub topics page...............................passed
+When Clicks Linked list Try here in bottom of page..........................passed
+Then Shows  Linked list  Textarea to run Python code........................passed
+When Clicks Linked list  run to execute the program.........................passed
+Then Shows Linked list output of program....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="Linked List subtopics - Example #1.2" time="0.566">
+<system-out><![CDATA[
+Given Shows option to explore more about Linked list........................passed
+When Clicks Linked list "Creating Linked LIst"..............................passed
+Then Navigates to Linked list sub topics page...............................passed
+When Clicks Linked list Try here in bottom of page..........................passed
+Then Shows  Linked list  Textarea to run Python code........................passed
+When Clicks Linked list  run to execute the program.........................passed
+Then Shows Linked list output of program....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="Linked List subtopics - Example #1.3" time="0.677">
+<system-out><![CDATA[
+Given Shows option to explore more about Linked list........................passed
+When Clicks Linked list "Types of Linked List"..............................passed
+Then Navigates to Linked list sub topics page...............................passed
+When Clicks Linked list Try here in bottom of page..........................passed
+Then Shows  Linked list  Textarea to run Python code........................passed
+When Clicks Linked list  run to execute the program.........................passed
+Then Shows Linked list output of program....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="Linked List subtopics - Example #1.4" time="0.518">
+<system-out><![CDATA[
+Given Shows option to explore more about Linked list........................passed
+When Clicks Linked list "Implement Linked List in Python"...................passed
+Then Navigates to Linked list sub topics page...............................passed
+When Clicks Linked list Try here in bottom of page..........................passed
+Then Shows  Linked list  Textarea to run Python code........................passed
+When Clicks Linked list  run to execute the program.........................passed
+Then Shows Linked list output of program....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="Linked List subtopics - Example #1.5" time="0.508">
+<system-out><![CDATA[
+Given Shows option to explore more about Linked list........................passed
+When Clicks Linked list "Traversal".........................................passed
+Then Navigates to Linked list sub topics page...............................passed
+When Clicks Linked list Try here in bottom of page..........................passed
+Then Shows  Linked list  Textarea to run Python code........................passed
+When Clicks Linked list  run to execute the program.........................passed
+Then Shows Linked list output of program....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="Linked List subtopics - Example #1.6" time="0.57">
+<system-out><![CDATA[
+Given Shows option to explore more about Linked list........................passed
+When Clicks Linked list "Insertion".........................................passed
+Then Navigates to Linked list sub topics page...............................passed
+When Clicks Linked list Try here in bottom of page..........................passed
+Then Shows  Linked list  Textarea to run Python code........................passed
+When Clicks Linked list  run to execute the program.........................passed
+Then Shows Linked list output of program....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="Linked List subtopics - Example #1.7" time="0.537">
+<system-out><![CDATA[
+Given Shows option to explore more about Linked list........................passed
+When Clicks Linked list "Deletion"..........................................passed
+Then Navigates to Linked list sub topics page...............................passed
+When Clicks Linked list Try here in bottom of page..........................passed
+Then Shows  Linked list  Textarea to run Python code........................passed
+When Clicks Linked list  run to execute the program.........................passed
+Then Shows Linked list output of program....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Linked List" name="signout" time="0.142">
+<system-out><![CDATA[
+When Clicks signout from Linked list  page..................................passed
+Then logged out from Linked list Data Structure.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of login  site" name="Signing in - Example #1.1" time="1.495">
+<system-out><![CDATA[
+Given User registered already clicks Login..................................passed
+When Enters Different combination of username and password from Excel "login" file.passed
+Then Shows respective messages And Navigates to home page when enters correct username and password.passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of login  site" name="logout" time="0.144">
+<system-out><![CDATA[
+When Clicks logout after logged in..........................................passed
+Then logged out from the page...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Queue" name="Home" time="0.988">
+<system-out><![CDATA[
+Given logged in Ds home screen..............................................passed
+When Clicks to Queue Get started to explore.................................passed
+Then Shows Queue explanation................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Queue" name="Queue subtopics - Example #1.1" time="0.986">
+<system-out><![CDATA[
+Given Shows option to explore more about Queue..............................passed
+When Clicks Queue "Implementation of Queue in Python".......................passed
+Then Navigates to queue sub topics page.....................................passed
+When Clicks Queue Try here in bottom of page................................passed
+Then Shows  Queue Textarea to run Python code...............................passed
+When Clicks Queue run to execute the program................................passed
+Then Shows Queue output of program..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Queue" name="Queue subtopics - Example #1.2" time="0.761">
+<system-out><![CDATA[
+Given Shows option to explore more about Queue..............................passed
+When Clicks Queue "Implementation using collections.deque"..................passed
+Then Navigates to queue sub topics page.....................................passed
+When Clicks Queue Try here in bottom of page................................passed
+Then Shows  Queue Textarea to run Python code...............................passed
+When Clicks Queue run to execute the program................................passed
+Then Shows Queue output of program..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Queue" name="Queue subtopics - Example #1.3" time="0.719">
+<system-out><![CDATA[
+Given Shows option to explore more about Queue..............................passed
+When Clicks Queue "Implementation using array"..............................passed
+Then Navigates to queue sub topics page.....................................passed
+When Clicks Queue Try here in bottom of page................................passed
+Then Shows  Queue Textarea to run Python code...............................passed
+When Clicks Queue run to execute the program................................passed
+Then Shows Queue output of program..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Queue" name="Queue subtopics - Example #1.4" time="0.717">
+<system-out><![CDATA[
+Given Shows option to explore more about Queue..............................passed
+When Clicks Queue "Queue Operations"........................................passed
+Then Navigates to queue sub topics page.....................................passed
+When Clicks Queue Try here in bottom of page................................passed
+Then Shows  Queue Textarea to run Python code...............................passed
+When Clicks Queue run to execute the program................................passed
+Then Shows Queue output of program..........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the Queue" name="signout" time="0.133">
+<system-out><![CDATA[
+When Clicks signout from Queue page.........................................passed
+Then logged out from Queue Data Structure...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of register page" name="home" time="0.268">
+<system-out><![CDATA[
+Given Clicks register to create username and password.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of register page" name="register - Example #1.1" time="3.182">
+<system-out><![CDATA[
+Given clicks Register button................................................passed
+When Enters "" "" and "" of below values....................................passed
+Then Shows Message of creating based on given values........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of register page" name="register - Example #1.2" time="3.144">
+<system-out><![CDATA[
+Given clicks Register button................................................passed
+When Enters "phoenixteam" "" and "" of below values.........................passed
+Then Shows Message of creating based on given values........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of register page" name="register - Example #1.3" time="3.134">
+<system-out><![CDATA[
+Given clicks Register button................................................passed
+When Enters "phoenixteam" "phonex123" and "" of below values................passed
+Then Shows Message of creating based on given values........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of register page" name="register - Example #1.4" time="0.209">
+<system-out><![CDATA[
+Given clicks Register button................................................passed
+When Enters "phoenixteam" "123344454" and "1123234235" of below values......passed
+Then Shows Message of creating based on given values........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of register page" name="register - Example #1.5" time="0.184">
+<system-out><![CDATA[
+Given clicks Register button................................................passed
+When Enters "phoenixteam" "phoneni" and "679787690" of below values.........passed
+Then Shows Message of creating based on given values........................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automation of register page" name="valid register - Example #1.1" time="3.43">
+<failure type="org.openqa.selenium.NoSuchElementException" message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//*[text()='Sign out']&quot;}
+  (Session info: chrome=120.0.6099.216)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3a204bf2f775946d7358e4f76f6dbba, findElement {using=xpath, value=//*[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/gb/z_br60gn0h5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63424/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3a204bf2f775946d7358e4f76f6dbba">
+<![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//*[text()='Sign out']"}
+  (Session info: chrome=120.0.6099.216)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.16.0', revision: '15400459dd*'
+System info: os.name: 'Mac OS X', os.arch: 'aarch64', os.version: '13.4', java.version: '21.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d3a204bf2f775946d7358e4f76f6dbba, findElement {using=xpath, value=//*[text()='Sign out']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 120.0.6099.216, chrome: {chromedriverVersion: 120.0.6099.109 (3419140ab66..., userDataDir: /var/folders/gb/z_br60gn0h5...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63424}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: mac, proxy: Proxy(), se:cdp: ws://localhost:63424/devtoo..., se:cdpVersion: 120.0.6099.216, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d3a204bf2f775946d7358e4f76f6dbba
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:523)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:354)
+	at pom.Registerpom.lsignout(Registerpom.java:78)
+	at stepdefinitions.Register.clicks_sign_out(Register.java:72)
+	at ✽.clicks Sign out(file:///Users/sathishkumar/eclipse-workspace/projectcucumber/./src/test/resources/features/register.feature:24)
+]]>
+</failure>
+<system-out><![CDATA[
+When Enters possible "<username>" "phoenix123/" and "phoenix123/" to create account.passed
+Then Accepts user name and password and navigate to home page with username And Shows New Account credited with username.passed
+When clicks Sign out........................................................failed
+Then Displays Logged out successfully.......................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the stack" name="home" time="0.795">
+<system-out><![CDATA[
+Given logged in home screen.................................................passed
+When Clicks to Stack Get started to explore.................................passed
+Then Shows explanation......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the stack" name="Stack subtopics - Example #1.1" time="0.903">
+<system-out><![CDATA[
+Given Shows option to explore more about Stack..............................passed
+When Clicks Stack "Operations in Stack".....................................passed
+Then Navigates to topic page................................................passed
+When Clicks Stack Try here in bottom of page................................passed
+Then Shows  Stack Textarea to run Python code...............................passed
+When Clicks run to execute the program......................................passed
+Then Shows output of program................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the stack" name="Stack subtopics - Example #1.2" time="0.769">
+<system-out><![CDATA[
+Given Shows option to explore more about Stack..............................passed
+When Clicks Stack "Implementation"..........................................passed
+Then Navigates to topic page................................................passed
+When Clicks Stack Try here in bottom of page................................passed
+Then Shows  Stack Textarea to run Python code...............................passed
+When Clicks run to execute the program......................................passed
+Then Shows output of program................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the stack" name="Stack subtopics - Example #1.3" time="0.731">
+<system-out><![CDATA[
+Given Shows option to explore more about Stack..............................passed
+When Clicks Stack "Applications"............................................passed
+Then Navigates to topic page................................................passed
+When Clicks Stack Try here in bottom of page................................passed
+Then Shows  Stack Textarea to run Python code...............................passed
+When Clicks run to execute the program......................................passed
+Then Shows output of program................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Autamates the stack" name="signout" time="0.134">
+<system-out><![CDATA[
+When Clicks signout from Stack page.........................................passed
+Then logged out from Stack Data Structure...................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="home" time="0.846">
+<system-out><![CDATA[
+Given logged in DS Home page................................................passed
+When Clicks Get started to enter into the tree page.........................passed
+Then Shows information about tree...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.1" time="0.78">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Overview of Trees"........................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.2" time="0.822">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Terminologies"............................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.3" time="0.751">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Types of Trees"...........................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.4" time="0.758">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Tree Traversals"..........................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.5" time="0.743">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Traversals-Illustration"..................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.6" time="0.756">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Binary Trees".............................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.7" time="0.956">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Types of Binary Trees"....................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.8" time="0.749">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Implementation in Python".................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.9" time="0.749">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Binary Tree Traversals"...................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.10" time="0.742">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Implementation of Binary Trees"...........................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.11" time="0.743">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Applications of Binary trees".............................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.12" time="0.824">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Binary Search Trees"......................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="subtopics - Example #1.13" time="0.96">
+<system-out><![CDATA[
+Given Shows options to read more about Tree.................................passed
+When Clicks tree "Implementation Of BST"....................................passed
+Then Shows Explanation of tree..............................................passed
+When Clicks tree Try here to run the program................................passed
+Then It shows tree text area to type the phython code.......................passed
+When clicks tree Run........................................................passed
+Then It runs the progam and Shows output in tree page.......................passed
+]]></system-out>
+</testcase>
+<testcase classname="Automates tree page" name="signout" time="0.29">
+<system-out><![CDATA[
+When Clicks signout from tree page..........................................passed
+Then logged out from tree Data structure....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
